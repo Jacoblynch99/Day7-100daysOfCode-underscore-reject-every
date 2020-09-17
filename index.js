@@ -3,7 +3,7 @@ const _ = require("underscore")
 const numArr = [25, 36, 68, 1275, 9, 165, 237, 20]
 
 const odds = (num) => {
-  return num % 2 != 0
+  return num % 2 !== 0
 }
 
 const everythingPasses = (num) => {
