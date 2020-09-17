@@ -14,5 +14,7 @@ const nums = _.reject(numArr, odds) // this finds and removes all specified elem
 
 const bool = _.every(numArr, everythingPasses) // returns true only if every element on an array passes true from the specified function. Goes through the array until it hits an element that does not meet the functions requirements.
 
+// use the odds function to get a false from the bools variable!
+
 console.log(nums)
 console.log(bool)
